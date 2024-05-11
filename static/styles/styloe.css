@@ -5,7 +5,9 @@
 }
 body {
   padding: 2rem;
-  background-color: rgb(14, 164, 62);
+  background: slateblue;
+  background-size: cover;
+  background-position: center;
   color: whitesmoke;
   min-height: 100vh;
   display: flex;
@@ -20,4 +22,14 @@ button {
   font-size: 2rem;
   padding: 1rem;
   border-radius: 10px;
+}
+
+@media only screen and(max-width:768px) {
+  input,
+  button {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+  }
 }
